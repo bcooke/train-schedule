@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'repetition-scrolling-regular';
+  src: url('fonts/repetition-scrolling-webfont.woff2') format('woff2'),
+       url('fonts/repetition-scrolling-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nsinfo {
+  background: #111111;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 100px 0px;
+
+  &-top,
+  &-bottom {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &-header {
+    width: 100%;
+    display: table;
+    margin-bottom: 20px;
+
+    h1 {
+      color: #777777;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+  }
+
+  &-date,
+  &-time {
+    font-family: 'repetition-scrolling-regular';
+    color: #ffef99;
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  &-date {
+    text-align: left;
+  }
+  
+  &-time {
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  &-date,
+  &-title,
+  &-time {
+    display: table-cell;
+  }
+
+  &-schedule-table {
+    text-transform: uppercase;
+    width: 100%;
+
+    th {
+      color: #777777;
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    tr {
+      color: #ffef99;
+    }
+
+    &-cell {
+      font-family: 'repetition-scrolling-regular';
+      text-align: left;
+      padding: 2px 10px;
+      font-size: 16px;
+
+      &--time,
+      &--train,
+      &--track {
+        text-align: center;
+      }
+    }
+
+    &-cell--good {
+      color: #adff2f;
+    }
+
+    &-cell--bad {
+      color: #dd0048;
+    }
+  }
+}

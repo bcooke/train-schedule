@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'repetition-scrolling-regular';
+  src: url("fonts/repetition-scrolling-webfont.woff2") format("woff2"), url("fonts/repetition-scrolling-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.nsinfo {
+  background: #111111;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 100px 0px; }
+  .nsinfo-top, .nsinfo-bottom {
+    width: 80%;
+    margin: 0 auto; }
+  .nsinfo-header {
+    width: 100%;
+    display: table;
+    margin-bottom: 20px; }
+    .nsinfo-header h1 {
+      color: #777777;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: normal; }
+  .nsinfo-date, .nsinfo-time {
+    font-family: 'repetition-scrolling-regular';
+    color: #ffef99;
+    font-size: 24px;
+    line-height: 26px; }
+  .nsinfo-date {
+    text-align: left; }
+  .nsinfo-time {
+    text-align: right;
+    text-transform: uppercase; }
+  .nsinfo-date, .nsinfo-title, .nsinfo-time {
+    display: table-cell; }
+  .nsinfo-schedule-table {
+    text-transform: uppercase;
+    width: 100%; }
+    .nsinfo-schedule-table th {
+      color: #777777;
+      font-size: 12px;
+      font-weight: normal; }
+    .nsinfo-schedule-table tr {
+      color: #ffef99; }
+    .nsinfo-schedule-table-cell {
+      font-family: 'repetition-scrolling-regular';
+      text-align: left;
+      padding: 2px 10px;
+      font-size: 16px; }
+      .nsinfo-schedule-table-cell--time, .nsinfo-schedule-table-cell--train, .nsinfo-schedule-table-cell--track {
+        text-align: center; }
+    .nsinfo-schedule-table-cell--good {
+      color: #adff2f; }
+    .nsinfo-schedule-table-cell--bad {
+      color: #dd0048; }
